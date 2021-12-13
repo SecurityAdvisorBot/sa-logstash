@@ -1,8 +1,5 @@
 name: Sa-logstash
 on:
-  push:
-    branches:
-      - main
   create:
     tags:
       - v*
