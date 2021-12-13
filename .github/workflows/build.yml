@@ -1,8 +1,8 @@
 name: Sa-logstash
 on:
-  push:
-    branches:
-      - main
+  create:
+    tags:
+      - v*
 env:
   IMAGE_NAME: sa-logstash
 
